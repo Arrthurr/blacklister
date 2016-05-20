@@ -1,9 +1,9 @@
-<?php require_once('../Connections/conn3Sixteen.php');
+<?php require_once('conn3Sixteen.php');
 
 // CODE REVISED: 9 FEBRUARY 2011
 
 $data_action	= $_POST['data_action'];
-$blast_id		= $_POST['blast_list'];
+$blast_id	= $_POST['blast_list'];
 
 // connect to database to retrieve HTML
 mysql_select_db($database_conn3Sixteen, $conn3Sixteen);
@@ -214,7 +214,7 @@ if ($data_action == "View") {
 	}
 	
 	mysql_free_result($rsHtml);
-	header("Location: /admin/mailer.php?count=" . $message_count);
+	header("Location: /mailer.php?count=" . $message_count);
 	exit;
 	
 } else {
