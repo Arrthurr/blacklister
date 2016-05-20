@@ -1,4 +1,4 @@
-<?php require_once('/Connections/conn3Sixteen.php'); ?>
+<?php require_once('conn3Sixteen.php'); ?>
 
 <?php
 $address = $_POST['address'];
@@ -17,7 +17,7 @@ $gone = del_address($address);
 <table width="450" border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td width="25" bgcolor="#996600">&nbsp;</td>
-        <td width="425"><img src="/images/signature.gif" width="179" height="54"></td>
+        <td width="425"><img src="signature.gif" width="179" height="54"></td>
     </tr>
     <tr>
         <td width="25">&nbsp;</td>
