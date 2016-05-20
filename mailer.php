@@ -1,4 +1,4 @@
-<?php require_once('/Connections/conn3Sixteen.php'); ?>
+<?php require_once('conn3Sixteen.php'); ?>
 
 <!-- CODE REVISED: 9 FEBRUARY 2011 -->
 
@@ -24,7 +24,7 @@ $count = $_GET["count"];
 <table width="450" border="0" cellspacing="0" cellpadding="0">
 	<tr> 
 		<td width="25" bgcolor="#996600">&nbsp;</td>
-		<td width="425"><img src="/images/signature.gif" width="179" height="54"></td>
+		<td width="425"><img src="signature.gif" width="179" height="54"></td>
 	</tr>
 	<tr> 
 		<td width="25">&nbsp;</td>
@@ -86,21 +86,21 @@ $count = $_GET["count"];
 					<tr> 
 						<td>&nbsp;</td>
 						<td>
-							<select name="mail_list" id="mail_list">
-								<option value="null">Choose a mailing list</option>
-								<option value="one_name">THIS ADDRESS ONLY</option>
-								<option value="general_list">General</option>
-								<option value="regal_list">Regal Theater</option>
-								<!-- option value="radio_list">Radio</option -->
-								<!-- option value="retail_list">Retail</option -->
-                				<option value="shpc_list">SHPC List</option>
-                				<option value="test">Massive List</option>
-								<option value="miyk_list">MIYK Only</option>
-								<!-- option value="midwest">Midwest Clinic</option -->
-								<option value="dmdl_provider">DMDL FY11 Personnel</option>
-                				<option value="cbc_tt">CBC - Treasured Truth</option>
-                				<option value="dmdl_titlei">DMDL Title I Seminar List</option>
-							</select></td>
+						<select name="mail_list" id="mail_list">
+							<option value="null">Choose a mailing list</option>
+							<option value="one_name">THIS ADDRESS ONLY</option>
+							<option value="general_list">General</option>
+							<option value="regal_list">Regal Theater</option>
+							<!-- option value="radio_list">Radio</option -->
+							<!-- option value="retail_list">Retail</option -->
+                					<option value="shpc_list">SHPC List</option>
+                					<option value="test">Massive List</option>
+							<option value="miyk_list">MIYK Only</option>
+							<!-- option value="midwest">Midwest Clinic</option -->
+							<option value="dmdl_provider">DMDL FY11 Personnel</option>
+                					<option value="cbc_tt">CBC - Treasured Truth</option>
+                					<option value="dmdl_titlei">DMDL Title I Seminar List</option>
+						</select></td>
 					</tr>
 					<tr> 
 						<td>&nbsp;</td>
